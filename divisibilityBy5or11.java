@@ -1,12 +1,12 @@
 import java.util.*;
-public class evenOdd {
+public class divisibilityBy5or11 {
     public static void main(String[] Args){
         Scanner in = new Scanner(System.in);
         System.out.println("ENTER A NUMBER");
         int num1=in.nextInt();
 
 
-        if(num1%2==0){
+        if((num1%5==0)&&(num1%11==0)){
             System.out.println(" PERFECTLY DIVISIBLE ");
         }
 
@@ -16,4 +16,3 @@ public class evenOdd {
         System.out.println(" FAREWELL USER! ");
     }
 }
-
